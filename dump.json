@@ -1,1 +1,104 @@
-
+{
+    "GeneralOffsets": {
+        "dwEntityList": "0x1D16758",
+        "dwGlobalVars": "0x1BE7220",
+        "dwLocalPlayerController": "0x1E1FC08",
+        "dwLocalPlayerPawn": "0x1BF1FA0",
+        "dwPlantedC4": "0x1E38398",
+        "dwViewAngles": "0x1E3E4E0",
+        "dwWindowHeight": "0x8EA63C",
+        "dwWindowWidth": "0x8EA638",
+        "dwViewMatrix": "0x1E339D0"
+    },
+    "EntityOffsets": {
+        "m_iszPlayerName": "0x6E8",
+        "m_flGravityScale": "0x540",
+        "m_hPlayerPawn": "0x6B4",
+        "m_bPawnIsAlive": "0x904"
+    },
+    "PawnOffsets": {
+        "m_modelState": "0x190",
+        "m_pBulletServices": "0x1690",
+        "m_aimPunchAngle": "0x16FC",
+        "m_aimPunchCache": "0x1720",
+        "m_bIsBuyMenuOpen": "0x174A",
+        "m_entitySpottedState": "0x2718",
+        "m_bIsScoped": "0x2730",
+        "m_bIsDefusing": "0x2732",
+        "m_iShotsFired": "0x2744",
+        "m_ArmorValue": "0x2764",
+        "m_hViewModel": "0x13E0",
+        "m_nCrouchState": "0x244",
+        "m_iFOVStart": "0x28C",
+        "m_pViewModelServices": "0x13E8",
+        "m_vecLastClipCameraPos": "0x3DD4",
+        "m_pClippingWeapon": "0x3DF0",
+        "m_flFlashMaxAlpha": "0x1624",
+        "m_flFlashDuration": "0x1628",
+        "m_angEyeAngles": "0x3E00",
+        "m_iIDEntIndex": "0x3EDC",
+        "m_iDesiredFOV": "0x77C",
+        "m_vOldOrigin": "0x15B8",
+        "m_bSpottedByMask": "0xC",
+        "m_totalHitsOnServer": "0x40",
+        "m_vecOrigin": "0x88",
+        "m_pGameSceneNode": "0x330",
+        "m_iMaxHealth": "0x348",
+        "m_iHealth": "0x34C",
+        "m_iTeamNum": "0x3EB",
+        "m_vecAbsVelocity": "0x3FC",
+        "m_hOwnerEntity": "0x520"
+    },
+    "PlayerControllerOffsets": {
+        "m_hPawn": "0x6B4",
+        "m_pObserverServices": "0x1420",
+        "m_hController": "0x15D0",
+        "m_hObserverTarget": "0x44",
+        "m_iPawnArmor": "0x90C",
+        "m_bPawnHasDefuser": "0x910",
+        "m_bPawnHasHelmet": "0x911"
+    },
+    "EconEntityOffsets": {
+        "m_AttributeManager": "0x13A8",
+        "m_nFallbackPaintKit": "0x1888",
+        "m_nFallbackSeed": "0x188C",
+        "m_flFallbackWear": "0x1890",
+        "m_nFallbackStatTrak": "0x1894",
+        "m_iEntityQuality": "0x1BC",
+        "m_iItemIDHigh": "0x1D0",
+        "m_szCustomName": "0x300"
+    },
+    "WeaponBaseOffsets": {
+        "m_Item": "0x50",
+        "m_iMaxClip1": "0x3E8",
+        "m_MeshGroupMask": "0x250",
+        "m_iItemDefinitionIndex": "0x1BA",
+        "m_hActiveWeapon": "0x58",
+        "m_bInReload": "0x1A2C",
+        "m_WeaponType": "0x440",
+        "m_flCycleTime": "0x740",
+        "m_flInaccuracyMove": "0x788",
+        "m_flPenetration": "0x824"
+    },
+    "C4Offsets": {
+        "m_nBombSite": "0x117C",
+        "m_bBeingDefused": "0x11B4",
+        "m_flDefuseCountDown": "0x11C8"
+    },
+    "InGameMoneyServicesOffsets": {
+        "m_iAccount": "0x40",
+        "m_iTotalCashSpent": "0x48",
+        "m_iCashSpentThisRound": "0x4C",
+        "m_pInGameMoneyServices": "0x7F8"
+    },
+    "SmokeGrenadeProjectileOffsets": {
+        "m_nSmokeEffectTickBegin": "0x1480",
+        "m_bDidSmokeEffect": "0x1484",
+        "m_nRandomSeed": "0x1488",
+        "m_vSmokeColor": "0x148C",
+        "m_vSmokeDetonationPos": "0x1498",
+        "m_VoxelFrameData": "0x14A8",
+        "m_bSmokeVolumeDataReceived": "0x14C8",
+        "m_bSmokeEffectSpawned": "0x14C9"
+    }
+}

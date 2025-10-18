@@ -36,7 +36,9 @@
         "m_iShotsFired": "0x272C",
         "m_vecLastClipCameraPos": "0x3DC4",
         "m_pClippingWeapon": "0x3DE0",
-        "m_angEyeAngles": "0x3DF0"
+        "m_angEyeAngles": "0x3DF0",
+        "m_aimPunchCache": "0x1708",
+        "m_bSpottedByMask": "0xC"
     },
 
     "PlayerPawnBase": {

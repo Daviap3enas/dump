@@ -374,12 +374,12 @@
         "m_szModifier": "0x120"
     },
     "C_RetakeGameRules": {
-        "m_nMatchSeed": "0xF8",
-        "m_bBlockersPresent": "0xFC",
-        "m_bRoundInProgress": "0xFD",
-        "m_iFirstSecondHalfRound": "0x100",
-        "m_iBombSite": "0x104",
-        "m_hBombPlanter": "0x108"
+        "m_nMatchSeed": "0x138",
+        "m_bBlockersPresent": "0x13C",
+        "m_bRoundInProgress": "0x13D",
+        "m_iFirstSecondHalfRound": "0x140",
+        "m_iBombSite": "0x144",
+        "m_hBombPlanter": "0x148"
     },
     "CPulseCell_WaitForObservable": {
         "m_Condition": "0x48",
@@ -1948,7 +1948,8 @@
         "m_flAccumulatedJumpError": "0x534",
         "m_flTicksSinceLastSurfingDetected": "0x538",
         "m_bWasSurfing": "0x53C",
-        "m_vecInputRotated": "0x5CC"
+        "m_vecInputRotated": "0x5CC",
+        "m_bJumpApexPending": "0xDF8"
     },
     "SellbackPurchaseEntry_t": {
         "m_unDefIdx": "0x30",
@@ -2801,27 +2802,27 @@
         "m_bSwitchingTeamsAtRoundReset": "0xD7D",
         "m_pGameModeRules": "0xD98",
         "m_RetakeRules": "0xDA0",
-        "m_nMatchEndCount": "0xEB8",
-        "m_nTTeamIntroVariant": "0xEBC",
-        "m_nCTTeamIntroVariant": "0xEC0",
-        "m_bTeamIntroPeriod": "0xEC4",
-        "m_iRoundEndWinnerTeam": "0xEC8",
-        "m_eRoundEndReason": "0xECC",
-        "m_bRoundEndShowTimerDefend": "0xED0",
-        "m_iRoundEndTimerTime": "0xED4",
-        "m_sRoundEndFunFactToken": "0xED8",
-        "m_iRoundEndFunFactPlayerSlot": "0xEE0",
-        "m_iRoundEndFunFactData1": "0xEE4",
-        "m_iRoundEndFunFactData2": "0xEE8",
-        "m_iRoundEndFunFactData3": "0xEEC",
-        "m_sRoundEndMessage": "0xEF0",
-        "m_iRoundEndPlayerCount": "0xEF8",
-        "m_bRoundEndNoMusic": "0xEFC",
-        "m_iRoundEndLegacy": "0xF00",
-        "m_nRoundEndCount": "0xF04",
-        "m_iRoundStartRoundNumber": "0xF08",
-        "m_nRoundStartCount": "0xF0C",
-        "m_flLastPerfSampleTime": "0x4F18"
+        "m_nMatchEndCount": "0xEF8",
+        "m_nTTeamIntroVariant": "0xEFC",
+        "m_nCTTeamIntroVariant": "0xF00",
+        "m_bTeamIntroPeriod": "0xF04",
+        "m_iRoundEndWinnerTeam": "0xF08",
+        "m_eRoundEndReason": "0xF0C",
+        "m_bRoundEndShowTimerDefend": "0xF10",
+        "m_iRoundEndTimerTime": "0xF14",
+        "m_sRoundEndFunFactToken": "0xF18",
+        "m_iRoundEndFunFactPlayerSlot": "0xF20",
+        "m_iRoundEndFunFactData1": "0xF24",
+        "m_iRoundEndFunFactData2": "0xF28",
+        "m_iRoundEndFunFactData3": "0xF2C",
+        "m_sRoundEndMessage": "0xF30",
+        "m_iRoundEndPlayerCount": "0xF38",
+        "m_bRoundEndNoMusic": "0xF3C",
+        "m_iRoundEndLegacy": "0xF40",
+        "m_nRoundEndCount": "0xF44",
+        "m_iRoundStartRoundNumber": "0xF48",
+        "m_nRoundStartCount": "0xF4C",
+        "m_flLastPerfSampleTime": "0x4F58"
     },
     "CGrenadeTracer": {
         "m_flTracerDuration": "0xEC8",
@@ -3053,8 +3054,8 @@
         "m_bIsHoldingLookAtWeapon": "0xCD",
         "m_nOldTotalShootPositionHistoryCount": "0xD0",
         "m_nOldTotalInputHistoryCount": "0x368",
-        "m_networkAnimTiming": "0x18C8",
-        "m_bBlockInspectUntilNextGraphUpdate": "0x18E0"
+        "m_networkAnimTiming": "0x18E0",
+        "m_bBlockInspectUntilNextGraphUpdate": "0x18F8"
     },
     "C_PhysMagnet": {
         "m_aAttachedObjectsFromServer": "0x1158",
@@ -3477,36 +3478,36 @@
         "m_iDesiredFOV": "0x77C"
     },
     "client_dll": {
-        "dwCSGOInput": "0x1E2FE00",
-        "dwEntityList": "0x1D07A80",
-        "dwGameEntitySystem": "0x1FAC650",
+        "dwCSGOInput": "0x1E39140",
+        "dwEntityList": "0x1D10CF8",
+        "dwGameEntitySystem": "0x1FB59E0",
         "dwGameEntitySystem_highestEntityIndex": "0x20F0",
-        "dwGameRules": "0x1E25180",
-        "dwGlobalVars": "0x1BD8060",
-        "dwGlowManager": "0x1E22018",
-        "dwLocalPlayerController": "0x1E11978",
-        "dwLocalPlayerPawn": "0x1BE2D10",
-        "dwPlantedC4": "0x1E2B3D0",
-        "dwPrediction": "0x1BE2C40",
-        "dwSensitivity": "0x1E22A78",
+        "dwGameRules": "0x1E2E410",
+        "dwGlobalVars": "0x1BE11C0",
+        "dwGlowManager": "0x1E2B2B8",
+        "dwLocalPlayerController": "0x1E1ABD8",
+        "dwLocalPlayerPawn": "0x1BEBF38",
+        "dwPlantedC4": "0x1E33BD8",
+        "dwPrediction": "0x1BEBE50",
+        "dwSensitivity": "0x1E2BD08",
         "dwSensitivity_sensitivity": "0x50",
-        "dwViewAngles": "0x1E304B0",
-        "dwViewMatrix": "0x1E25F30",
-        "dwViewRender": "0x1E26AA8",
-        "dwWeaponC4": "0x1DC2E48"
+        "dwViewAngles": "0x1E397F0",
+        "dwViewMatrix": "0x1E2F3D0",
+        "dwViewRender": "0x1E2FF48",
+        "dwWeaponC4": "0x1DCC030"
     },
     "engine2_dll": {
-        "dwBuildNumber": "0x5EF3E4",
-        "dwNetworkGameClient": "0x5EE4F0",
-        "dwNetworkGameClient_clientTickCount": "0x358",
+        "dwBuildNumber": "0x5F03F4",
+        "dwNetworkGameClient": "0x8EA518",
+        "dwNetworkGameClient_clientTickCount": "0x390",
         "dwNetworkGameClient_deltaTick": "0x23C",
-        "dwNetworkGameClient_isBackgroundMap": "0x2C142F",
+        "dwNetworkGameClient_isBackgroundMap": "0x2C1467",
         "dwNetworkGameClient_localPlayer": "0xE8",
         "dwNetworkGameClient_maxClients": "0x230",
         "dwNetworkGameClient_serverTickCount": "0x23C",
         "dwNetworkGameClient_signOnState": "0x220",
-        "dwWindowHeight": "0x8ED624",
-        "dwWindowWidth": "0x8ED620"
+        "dwWindowHeight": "0x8EE814",
+        "dwWindowWidth": "0x8EE810"
     },
     "inputsystem_dll": {
         "dwInputSystem": "0x45A20"
@@ -3515,7 +3516,7 @@
         "dwGameTypes": "0x1B5EE0"
     },
     "soundsystem_dll": {
-        "dwSoundSystem": "0x3EAE50",
+        "dwSoundSystem": "0x3EAE60",
         "dwSoundSystem_engineViewData": "0x7C"
     }
 }

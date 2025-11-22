@@ -3485,7 +3485,7 @@
         "dwGameRules": "0x1E2F410",
         "dwGlobalVars": "0x1BE21C0",
         "dwGlowManager": "0x1E2C2B8",
-        "dwLocalPlayerController": "0x1E1BBE8",
+        "dwLocalPlayerController": "0x1E1BBD8",
         "dwLocalPlayerPawn": "0x1BECF38",
         "dwPlantedC4": "0x1E34BD8",
         "dwPrediction": "0x1BECE50",
@@ -3494,11 +3494,11 @@
         "dwViewAngles": "0x1E3A7F0",
         "dwViewMatrix": "0x1E303D0",
         "dwViewRender": "0x1E30F48",
-        "dwWeaponC4": "0x1DCD030"
+        "dwWeaponC4": "0x1DCD150"
     },
     "engine2_dll": {
-        "dwBuildNumber": "0x5F03F4",
-        "dwNetworkGameClient": "0x8EA518",
+        "dwBuildNumber": "0x5F13E4",
+        "dwNetworkGameClient": "0x8EB518",
         "dwNetworkGameClient_clientTickCount": "0x390",
         "dwNetworkGameClient_deltaTick": "0x23C",
         "dwNetworkGameClient_isBackgroundMap": "0x2C1467",
@@ -3506,8 +3506,8 @@
         "dwNetworkGameClient_maxClients": "0x230",
         "dwNetworkGameClient_serverTickCount": "0x23C",
         "dwNetworkGameClient_signOnState": "0x220",
-        "dwWindowHeight": "0x8EE814",
-        "dwWindowWidth": "0x8EE810"
+        "dwWindowHeight": "0x8EF824",
+        "dwWindowWidth": "0x8EF820"
     },
     "inputsystem_dll": {
         "dwInputSystem": "0x45A20"
